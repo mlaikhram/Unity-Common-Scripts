@@ -1,4 +1,4 @@
-[Back to main page](https://github.com/mlaikhram/Unity-Common-Scripts/blob/master)
+[Back to main page](https://github.com/mlaikhram/Unity-Common-Scripts)
 
 # Documentation
 This page contains a list of all classes available in the library, and will be updated as more classes are added. You can click on a class name to view more details.

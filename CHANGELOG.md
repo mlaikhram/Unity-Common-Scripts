@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2020-07-20
+### Fixed
+- Minor formatting issues with markdown across several documents.
+
 ## [1.0.0] - 2020-07-20
 ### Added
 - HighScores class with accompanying tests and documentation, which can be found [here](https://github.com/mlaikhram/Unity-Common-Scripts/blob/master/Documentation~/Classes/HighScores.md).
