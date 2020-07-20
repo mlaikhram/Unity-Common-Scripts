@@ -1,0 +1,19 @@
+{
+  "name": "com.mlaikhram.common",
+  "version": "1.0.0",
+  "displayName": "MLaikhram Common Scripts",
+  "description": "This package contains scripts for handling some common requirements across multiple projects.",
+  "unity": "2019.4",
+  "unityRelease": "4f1",
+  "keywords": [
+    "common",
+    "scripts",
+    "high score"
+  ],
+  "author": {
+    "name": "Matthew Laikhram",
+    "email": "mlaikhram@gmail.com",
+    "url": "https://github.com/mlaikhram"
+  },
+  "type": "library"
+}
