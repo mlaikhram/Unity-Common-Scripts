@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.1] - 2020-07-20
 ### Fixed
 - Minor formatting issues with markdown across several documents.
+- Fixed .gitignore to include relevant meta files.
 
 ## [1.0.0] - 2020-07-20
 ### Added
