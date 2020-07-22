@@ -97,7 +97,7 @@ namespace Mlaikhram.Common
         /// </summary>
         /// <param name="transform">The transform to play the audio as.</param>
         /// <param name="audio">The Audio Clip to play. Defaults to the Audio Clip in the attached Audio Source Component.</param>
-        public void PlaySoundAt(Transform targetTransform, AudioClip audio = null)
+        public void PlaySoundAs(Transform targetTransform, AudioClip audio = null)
         {
             audioPool[currentIndex].audioSource.clip = audio == null ? rootAudioSource.clip : audio;
             audioPool[currentIndex].targetTransform = targetTransform;
