@@ -5,6 +5,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Added
+- Unit tests to all component-based classes (as soon as I find a way to do that effectively).
+
+## [1.1.0] - 2020-07-22
+### Added
+- AudioPool class with accompanying documentation, which can be found [here](https://github.com/mlaikhram/Unity-Common-Scripts/blob/master/Documentation~/Classes/AudioPool.md)
+- Util class with accompanying documentation, which can be found [here](https://github.com/mlaikhram/Unity-Common-Scripts/blob/master/Documentation~/Classes/Util.md)
 
 ## [1.0.1] - 2020-07-20
 ### Fixed
