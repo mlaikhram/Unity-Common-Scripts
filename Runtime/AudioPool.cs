@@ -13,11 +13,6 @@ namespace Mlaikhram.Common
         /// </summary>
         public uint poolSize;
 
-        /// <summary>
-        /// The max number of audio sources this AudioPool can play at once.
-        /// </summary>
-        public uint PoolSize => poolSize;
-
         internal class AudioPoolObject
         {
             public AudioSource audioSource;
@@ -40,7 +35,6 @@ namespace Mlaikhram.Common
             audioPool = new List<AudioPoolObject>();
             for (int i = 0; i < poolSize; ++i)
             {
-                Debug.Log("i: " + i);
                 GameObject go = new GameObject("pool object " + i);
                 go.transform.position = transform.position;
                 go.transform.SetParent(transform);

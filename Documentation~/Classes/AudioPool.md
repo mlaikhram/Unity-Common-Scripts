@@ -6,7 +6,7 @@ This class utilizes Unity's `AudioSource` component to manage positional audio f
 ### Constants, Properties, and Methods
 Name | Type | Description
 -----|------|------------
-`PoolSize` | `uint` Property | Determines the max number of audio sources that can be played at once from this `AudioPool`.
+`poolSize` | `uint` Property | Determines the max number of audio sources that can be played at once from this `AudioPool`.
 `PlaySound(AudioClip audio = null)` | `void` Method | Plays the passed in `AudioClip` from this `GameObject`'s position, or plays the default `AudioClip` if none is specified.
 `PlaySoundAt(Vector3 position, AudioClip audio = null)` | `void` Method | Plays the passed in `AudioClip` from the specified position, or plays the default `AudioClip` if none is specified.
 `PlaySoundAs(Transform targetTransform, AudioClip audio = null)` | `void` Method | Plays the passed in `AudioClip` as the specified `Transform`, or plays the default `AudioClip` if none is specified.
