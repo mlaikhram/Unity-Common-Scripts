@@ -40,7 +40,6 @@ namespace Mlaikhram.Common
                 {
                     ChangeAudio(audioSource.clip, audioSource.loop);
                 }
-                Debug.Log("destroying self");
                 Destroy(gameObject);
             }
             else
