@@ -38,6 +38,7 @@ namespace Mlaikhram.Common
             {
                 if (audioSource.clip != instance.audioSource.clip || !instance.audioSource.isPlaying)
                 {
+                    instance.defaultVolume = defaultVolume;
                     ChangeAudio(audioSource.clip, audioSource.loop);
                 }
                 Destroy(gameObject);

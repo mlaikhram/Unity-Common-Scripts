@@ -2,6 +2,7 @@
 The purpose of this package is to provide easy solutions to a variety of common scenarios that come up when creating a new Unity project, including:
 * Tracking local high scores for players
 * Controlling positional audio with pools
+* Controlling continuous background music across scenes
 * Various extension methods for pre-existing classes
 * More coming soon
 

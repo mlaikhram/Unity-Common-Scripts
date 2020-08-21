@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Unit tests to all component-based classes (as soon as I find a way to do that effectively).
 
+## [1.2.0] - 2020-08-21
+### Added
+- BackgroundMusic class with accompanying documentation, which can be found [here](https://github.com/mlaikhram/Unity-Common-Scripts/blob/master/Documentation~/Classes/BackgroundMusic.md)
+
 ## [1.1.0] - 2020-07-22
 ### Added
 - AudioPool class with accompanying documentation, which can be found [here](https://github.com/mlaikhram/Unity-Common-Scripts/blob/master/Documentation~/Classes/AudioPool.md)
