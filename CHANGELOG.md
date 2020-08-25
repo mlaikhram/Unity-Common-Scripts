@@ -8,9 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Unit tests to all component-based classes (as soon as I find a way to do that effectively).
 
-## [1.3.0] - 2020-08-24
+## [1.3.0] - 2020-08-25
 ### Added
 - ObjectPool class with accompanying documentation, which can be found [here](https://github.com/mlaikhram/Unity-Common-Scripts/blob/master/Documentation~/Classes/ObjectPool.md)
+- ScreenShake class with accompanying documentation, which can be found [here](https://github.com/mlaikhram/Unity-Common-Scripts/blob/master/Documentation~/Classes/ScreenShake.md)
 
 ## [1.2.0] - 2020-08-21
 ### Added

@@ -19,14 +19,14 @@ namespace Mlaikhram.Common
         private readonly List<T> pool;
 
         /// <summary>
-        /// How many objects are in this pool.
+        /// Determines how many objects are in this pool.
         /// </summary>
         public int Count => pool.Count;
 
         private int poolIndex;
 
         /// <summary>
-        /// Create an ObjectPool.
+        /// Creates an ObjectPool.
         /// </summary>
         /// <param name="objectTemplate">The object to use for the pool.</param>
         /// <param name="poolSize">How many copies of the object the pool should contain.</param>
@@ -44,7 +44,7 @@ namespace Mlaikhram.Common
         }
 
         /// <summary>
-        /// Get the oldest object in the pool.
+        /// Gets the oldest object in the pool.
         /// </summary>
         /// <param name="position">The position to spawn the object.</param>
         public T GetObject(Vector3 position)

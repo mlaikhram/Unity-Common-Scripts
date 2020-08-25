@@ -4,6 +4,7 @@ The purpose of this package is to provide easy solutions to a variety of common 
 * Controlling positional audio with pools
 * Controlling continuous background music across scenes
 * Optimizing high quantities of object spawning with object pools
+* Adding screen shake
 * Various extension methods for pre-existing classes
 * More in future updates
 
