@@ -17,3 +17,9 @@ Add the following entry to your `manifest.json` file:
 "com.mlaikhram.common": "https://github.com/mlaikhram/Unity-Common-Scripts.git"
 ```
 For more information, view the Unity documentation [here](https://docs.unity3d.com/Manual/upm-dependencies.html).
+
+Whenever you would like to access the classes and functions from this package, add the following line to the top of your script:
+```
+using Mlaikhram.Common;
+```
+If you would like to update the package, then delete the `com.mlaikhram.common` entry from your `packages-lock.json` file and restart Unity.
