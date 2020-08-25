@@ -10,5 +10,5 @@ Name | Type | Description
 `Object` | `T` Property | The object that will be spawned by this pool.
 `Count` | `int` Property | The max number of objects in the pool.
 `ObjectPool(T objectTemplate, uint poolSize)` | `ObjectPool` Constructor | Creates a new `ObjectPool` with `Component` `objectTemplate` and size `poolSize`.
-`GetObject(Vector3 position)` | `T` Method | Returns the oldest object in tihe pool, calling `OnDisable()` at its previously enabled location if appropriate, and calling `OnEnable()` at the new location.
+`GetObject(Vector3 position)` | `T` Method | Returns the oldest object in the pool, calling `OnDisable()` at its previously enabled location if appropriate, and calling `OnEnable()` at the new location.
 
