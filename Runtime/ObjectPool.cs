@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using UnityEngine;
 
 namespace Mlaikhram.Common
@@ -17,6 +18,17 @@ namespace Mlaikhram.Common
         public T Object { get; }
 
         private readonly List<T> pool;
+
+        /// <summary>
+        /// The list of objects within the Object Pool.
+        /// </summary>
+        public ReadOnlyCollection<T> Pool
+        {
+            get
+            {
+                return pool.AsReadOnly();
+            }
+        }
 
         /// <summary>
         /// Determines how many objects are in this pool.
